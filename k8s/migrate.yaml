@@ -38,4 +38,4 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: integration1-db-secret   # Название секрета
-                  key: DATABAS
+                  key: DATABASE_URL
